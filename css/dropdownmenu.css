@@ -1,0 +1,87 @@
+#dropdown_menu {
+	padding: 0px;
+	width: 100%;
+	
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	z-index: 999999;
+}
+#dropdown_menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#dropdown_menu ul li {
+	background-color: #FFF;
+	float: left;
+	position: relative;
+	list-style-type: none;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #2C833F;
+	border-bottom-color: #2C833F;
+}
+#dropdown_menu ul li:hover ul {
+	visibility: visible;
+}
+#dropdown_menu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	display: block;
+	line-height: 30px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#head #logo_banner {
+	height: 92px;
+	padding-bottom: 10px;
+}
+
+#dropdown_menu ul li .women_change {
+	width: 135px;
+}
+#dropdown_menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 31px;
+	z-index: 1000;
+}
+#dropdown_menu ul li ul li {
+	width: 190px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#dropdown_menu ul li ul li a {
+	font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+	width: 100%;
+
+}
+
+#dropdown_menu ul li:hover {
+	background-color: #71a42f;
+}
+#dropdown_menu ul li a:hover {
+	color: #FFF;
+	font-weight: 700;
+}
