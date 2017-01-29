@@ -15,10 +15,10 @@ h1 {
 }
 
 h1 .h1links {
-	
+
 	font-size:16px;
 	color:#666;
-	
+
 	}
 
 h2 {
@@ -44,7 +44,7 @@ img {
 }
 
 #container {
-	width: 920px;
+	max-width: 920px;
 	margin-right: auto;
 	margin-left: auto;
 	border-right-width: 1px;
@@ -356,16 +356,16 @@ img {
 #right_panel .hespeaks h2 {
 	color: #182140;
 	text-transform:uppercase;
-	
+
 	}
-	
-	
+
+
 /* nff page infographic */
 
 #nff-info {
-	
+
 	margin:20px 0;
-	
+
 	}
 
 
@@ -383,10 +383,10 @@ text-align:center;
 
 .nff-fact span {
 
-display:block;	
+display:block;
 margin-top:10px;
 font-size:38px;
-	
+
 	}
 
 .nff-fact small {
@@ -394,6 +394,19 @@ font-size:10px;
 line-height:10px;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+	#container {
+		border:0 none;
+	}
+	#content #right_panel {
+		min-width:100%;
+		float:none;
+		border:0 none;
+	}
+	#left_panel {
+		display: none;
+	}
 
-
-
+}
